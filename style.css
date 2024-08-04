@@ -1,0 +1,196 @@
+li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+
+.COntainer {
+    background-color: white;
+    Width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+
+
+
+
+.Template {
+
+
+    width: 30%;
+    padding: 15px;
+    border: 5px solid navy;
+    display: grid;
+    grid-template-columns: auto auto;
+    place-content: center;
+    gap: 6px;
+
+}
+
+.Template1 {
+    background-color: rgb(35, 35, 59);
+    height: 70px;
+    width: auto;
+    grid-column: 1/3;
+}
+
+.Template2 {
+
+    background-color: rgb(35, 35, 59);
+    height: auto;
+    width: 200px;
+    grid-column-start: 1;
+    grid-row: 2/4;
+}
+
+.Template3 {
+    background-color: rgb(35, 35, 59);
+    height: 100px;
+    width: 200px;
+}
+
+.Template4 {
+
+    background-color: rgb(35, 35, 59);
+    height: 100px;
+    width: auto;
+}
+
+.Template5 {
+    background-color: rgb(35, 35, 59);
+    height: 150px;
+    width: auto;
+    grid-column: 1/3;
+}
+
+.Template6 {
+    background-color: rgb(35, 35, 59);
+    height: 45px;
+    width: auto;
+    grid-column: 1/3;
+}
+
+.flexbox {
+    height: 500px;
+    padding: 15px;
+    display: grid;
+    border: 5px solid green;
+    grid-template-columns: auto auto;
+    place-content: center;
+    gap: 6px;
+    
+
+}
+
+.flexbox1 {
+    background-color: orangered;
+    height: 70px;
+    width: auto;
+    grid-column: 1/3;
+    
+}
+
+.flexbox2 {
+
+    background-color: orangered;
+    height: auto;
+    width: 200px;
+    grid-column-start: 1;
+    grid-row: 2/4;
+}
+
+.flexbox3 {
+    background-color: orangered;
+    height: 100px;
+    width: 200px;
+}
+
+.flexbox4 {
+
+    background-color: orangered;
+    height: 100px;
+    width: auto;
+}
+
+.flexbox5 {
+    background-color: orangered;
+    height: 150px;
+    width: auto;
+    grid-column: 1/3;
+}
+
+.flexbox6 {
+    background-color: orangered;
+    height: 45px;
+    width: auto;
+    grid-column: 1/3;
+}
+
+.grid {
+
+
+    width: 30%;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    place-content: center;
+    gap: 6px;
+    color: white;
+    text-align: center;
+    border: 5px solid navy;
+}
+
+.grid1 {
+    background-color: rgb(35, 35, 59);
+    height: 70px;
+    width: auto;
+    grid-column: 1/3;
+
+}
+
+.grid2 {
+    background-color: rgb(35, 35, 59);
+    height: auto;
+    width: 200px;
+    grid-column-start: 1;
+    grid-row: 2/4;
+}
+
+.grid3 {
+    background-color: rgb(35, 35, 59);
+    height: 100px;
+    width: 200px;
+}
+
+.grid4 {
+    background-color: rgb(35, 35, 59);
+    height: 100px;
+    width: auto;
+}
+
+.grid5 {
+    background-color: rgb(35, 35, 59);
+    height: 150px;
+    width: auto;
+    grid-column: 1/3;
+}
+
+.grid6 {
+    background-color: rgb(35, 35, 59);
+    height: 45px;
+    width: auto;
+    grid-column: 1/3;
+}
+
